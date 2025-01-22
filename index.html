@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.2">
+
+    <title>MireLO</title>
+</head>
+<body>
+    <section class="s1">
+        <header>
+           
+            <nav class="navb">
+                <div class="navbar">
+                  <div class="container nav-container">
+                      <input class="checkbox" type="checkbox" name="" id="" />
+                      <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                      </div>  
+                    <div class="logo">
+                      <h1>Navbar</h1>
+                    </div>
+                    <div class="menu-items">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="ondix.html">Products/a></li>
+                      <li><a href="social.html">social-media</a></li>
+                     
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+          
+         <nav class="navc">
+                <ul>
+                    <li><a href="index.html">Home</a</li>
+                    <li><a href="ondix.html">Proudacs</a></li>
+                    <li><a href="social.html">Links</a></li>
+                </ul>
+            </nav>
+        
+        </header>
+        <div class="container1">
+             <h1 class="h1">ML logistics</h1>
+             <img src="assets/mad1.png" class="n1">
+             <img src="assets/mad2.png" class="n2">
+             <img src="assets/mad3.png" class="n3">
+              
+            </div>
+    </section>
+    <section class="s2">
+      
+        <div class="container2">
+            <div class="img-cont">
+                <img src="assets/5921785.jpg" class="n5">
+            </div>
+            <div class="text-p">
+                <p> At ML Logistics, we provide top-tier gaming equipment to elevate your experience. From high-performance gaming chairs to advanced controllers and audio gear, we offer everything you need for the ultimate setup. With fast shipping and a seamless shopping experience, we’re here to help you level up your gameplay. Explore our collection today and take your gaming to the next level!</p>
+
+                    <button><a href="ondix.html">Proudacts</a></button>
+            </div>
+        </div>
+    </section>
+    <style>
+      
+.montserrat-mao {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+.navbar{
+    
+    width: 100vw;
+}
+
+        body{ 
+            padding:0;
+            margin:0;
+            height:100vh;
+            width:100vw;
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            overflow-x: hidden;
+        } 
+
+       
+        .container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100vw;
+}
+
+.nav-container {
+  display: flex;
+ flex-direction: row;
+  text-align: center;
+  height: 62px;
+  width: 100%;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+.navb{
+  display: none;
+}
+.logo{
+    
+    height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top:-4px;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+  width: 100%;
+}
+.navc{
+  display: block;
+}
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 120px;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: #0e2431;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+
+
+
+        button:hover{
+            background-color: red;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+           transition: .4s;
+        }
+        .s1{
+            height:100%;
+            width: 100%;
+          
+            display:flex;
+           
+            justify-content: center;
+            align-items: center;
+            
+            flex-direction: column;
+        }
+        header{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left:30px;
+            position: absolute;
+            top: 10px;
+            right:0px;
+            align-content: center;
+            width:100%;
+
+        }
+        ul,li{
+            display:inline-block;
+        }
+        li{
+            margin: 0px  20px;
+        }
+        .h1{
+            font-size:100px;
+            font-weight: 800;
+          
+        }
+        img{
+            position: absolute;
+            width: 160px;
+            height: 160px;
+        }
+        .n2{
+            left: 160px;
+             top:180px;
+             rotate: -20deg;
+             z-index: -1;
+        }
+        .n3{
+            left: 660px;
+             bottom:100px;
+             rotate: 10deg;
+             z-index: -1;
+        }
+        .n1{
+            right: 160px;
+             top:180px;
+             rotate: 20deg;
+             z-index: -1;
+        }
+        .s2{
+            height:100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .container2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+         width:100%;
+         height:100%;
+         padding: 0px 30px;
+        }
+        .container1{
+            display: flex;
+           justify-content: center;
+           align-items: center;
+         width:100%;
+         height:100%;
+        
+        }
+        .n5{
+            position:relative;
+            height:60%;
+            width:60%;
+        }
+        .img-cont{
+        padding: 20px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        }
+        .text-p{
+            padding: 20px;
+            width:50%;
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+            
+        }
+        p{
+            font-size:26px;
+            text-align: center;
+        }
+        a:hover{
+            color:red;
+        }
+        button{
+            
+            background-color: yellow;
+            padding:10px 40px;
+            border: none;
+            border-radius:15px;
+            align-content: center;
+            color:black;
+            width: 30%;
+            transition: .4s;
+        }
+        .n1{
+            animation:slidup;
+            animation-timeline: view();
+        }
+        @keyframes slidup {
+            from{
+                transform:rotate(20deg);
+            }
+            to{
+                transform:rotate(-30deg);
+
+            }
+        }
+        .n2{
+            animation:slid;
+            animation-timeline: view();
+        }
+        @keyframes slid{
+            from{
+                transform: translateX(100);
+            }
+            to{
+                transform: translateX(170px);
+            }
+        }
+
+        .n3{
+            animation:sl;
+            animation-timeline: view();
+        }
+        @keyframes sl {
+            from{
+                transform: translateY(50);
+            }
+            to{
+                transform: translateY(124px);
+            }
+        }
+        .n5{
+            animation:s;
+            animation-timeline: view();
+        }
+        @keyframes s {
+            from{
+                transform: translateX(-200px);
+            }
+            to{
+                transform: translateY(0);
+            }
+        }
+
+        /* // ipad */
+@media only screen and (max-width: 992px) {
+   .navb{
+    display: block;
+   }
+   .navc{
+    display: none;
+   }
+   header{
+    display:block;
+            
+            margin-left:30px;
+            position: absolute;
+            top: 10px;
+            right:0px;
+            align-content: center;
+   }
+   .n2{
+            left: 190px;
+             top:780px;
+             rotate: -20deg;
+             z-index: -1;
+        }
+        .n3{
+            left: 300px;
+             bottom:170px;
+             rotate: 10deg;
+             z-index: -1;
+        }
+        .n1{
+            right: 100px;
+             top:100px;
+             rotate: 20deg;
+             z-index: -1;
+            }
+        .s1{
+          height:100vh;
+        }
+        .s2{
+          height:100vh;
+        }
+        .n5{
+            position:relative;
+            height:90%;
+            width:90%;
+        }
+        h1{
+        text-align: center;
+        backdrop-filter:blur(10px);
+        }
+}
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .container2{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+         width:100%;
+         height:100%;
+         padding: 0px 30px;
+        }
+        .n1 , .n2 , .n3{
+          display: none;
+
+        }
+        .h1{
+          font-size:60px;
+            font-weight: 800;
+          z-index: -22;
+        }
+        .n5{
+          position:relative;
+            height:130%;
+            width:140%;
+        }
+        p{
+          width:180%;
+        }
+        
+    }
+
+    </style>
+</body>
+
+</html>
